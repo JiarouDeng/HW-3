@@ -1,6 +1,6 @@
 def digit_sum(n):
   if (n>0):
-    return int(n%10 +digit_sum(n/10));
+    return int(n%10 +digit_sum(n//10));
   else:
     return int(n)
 
